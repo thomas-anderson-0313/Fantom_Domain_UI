@@ -20,7 +20,7 @@ export default function Topbar() {
 					<img src={logoText} alt="ENS Logo text" className="ens-logo" />
 				</Grid>
 				<Grid item xs = {2} sm = {4} md = {5} lg = {6}>
-					<button style = {{float:"right"}} className = "connect-button" onClick = {() => alert("you need to install metamask")}>CONNECT</button>
+					<button style = {{float:"right"}} className = "connect-button" onClick = {() => alert("👏 WE WILL BE COMING SOON !")}>CONNECT</button>
 				</Grid>
 			</Grid>
 		</div>

@@ -137,9 +137,33 @@ a {
 .search-section{
   margin-top: 30px;
 }
+.social-links{
+  font-size: 25px;
+  color:white;
+  margin-left:10px;
+}
 @media (max-width: 1280px){
   .search-section{
     margin-top: 70px;
+  }
+  .footer-twitter{
+    width:40px;
+    height:40px;
+  }
+  .footer-medium{
+    width:40px;
+    height:40px;
+  }
+  .footer-github{
+    width:40px;
+    height:40px;
+  }
+  .footer-telegram{
+    width:40px;
+    height:40px;
+  }
+  .social-links{
+    font-size: 20px;
   }
 }
 @media (max-width: 880px){
@@ -151,5 +175,45 @@ a {
   .footer-logo{
     width:70%;
     height:70%;
+  }
+  .ens-logo{
+    width:60%;
+  }
+  .coming_soon{
+    widows: 100px;
+    height:80px;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -65px;
+  }
+  .wait{
+    widows: 70px;
+    height:70px;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -25px;
+  }
+  .searchbar{
+    width: 50%;
+    padding: 20px 100px;
+    border-radius: 25px;
+    font-size: 20px;
+    border:none;
+    outline: none;
+  }
+  .dns-text{
+    margin-top: 60px;
+  }
+  .connect-button {
+    color:#008ae6;
+    padding:10px 20px;
+    font-size:1em;
+    font-weight: bold;
+    border:2px solid #008ae6;
+    border-radius:30px;
+    width:7em;
+    background-color: transparent;
+    margin-right:20%;
+    cursor: pointer;
   }
 }

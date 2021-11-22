@@ -18,27 +18,27 @@ export default function Footer() {
 				</Grid>
 				<Grid item xs = {6} sm = {6} md = {6} lg = {6}>
 						<div className = "inline border-right">
-							<a href = "https://twitter.com/">
+							<a href = "https://twitter.com/" target = "_blank">
 								<img src={twitter} alt="twitter" className="footer-twitter" />
-								<span style = {{fontSize:"25px", color:"white", marginLeft:"10px",}}>Twitter</span>
+								<span className = "social-links">Twitter</span>
 							</a>
 						</div>
 						<div className = "inline border-right">
-							<a href = "https://medium.com/">
+							<a href = "https://medium.com/" target = "_blank">
 								<img src={medium} alt="medium" className="footer-medium" />
-								<span style = {{fontSize:"25px", color:"white", marginLeft:"10px",}}>Medium</span>
+								<span className = "social-links" >Medium</span>
 							</a>
 						</div>
 						<div className = "inline border-right">
-							<a href = "https://github.com/">
+							<a href = "https://github.com/" target = "_blank">
 								<img src={github} alt="github" className="footer-github" />
-								<span style = {{fontSize:"25px", color:"white", marginLeft:"10px",}}>Github</span>
+								<span className = "social-links">Github</span>
 							</a>
 						</div>
 						<div className = "inline">
-							<a href = "https://telegram.com/">
+							<a href = "https://telegram.com/" target = "_blank">
 								<img src={telegram} alt="telegram" className="footer-telegram" />
-								<span style = {{fontSize:"25px", color:"white", marginLeft:"10px",}}>Telegram</span>
+								<span className = "social-links" >Telegram</span>
 							</a>
 						</div>
 				</Grid>
