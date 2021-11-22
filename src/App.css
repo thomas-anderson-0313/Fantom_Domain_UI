@@ -65,7 +65,7 @@
 }
 .dns-text{
   color:#595959;
-  font-size:20px;
+  font-size:25px;
 }
 .searchbar{
   width: 60%;
@@ -104,10 +104,32 @@
   width:50px;
   height:50px;
 }
+.footer-telegram{
+  width:50px;
+  height:50px;
+}
 a {
   text-decoration: none
+}
+.warningIcon{
+  width:25px;
+  height:25px;
 }
 .footer-logo{
   width:50%;
   height:50%;
+}
+.coming_soon{
+  widows: 200px;
+  height:150px;
+  position: absolute;
+  margin-left: -35px;
+  margin-top: -50px;
+}
+.wait{
+  widows: 150px;
+  height:150px;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 20px;
 }

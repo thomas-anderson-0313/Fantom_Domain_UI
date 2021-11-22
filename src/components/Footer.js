@@ -5,7 +5,7 @@ import twitter from "../assets/twitter.svg"
 import github from "../assets/github.svg"
 import medium from "../assets/medium.svg"
 import logo from "../assets/ensLogo.svg"
-
+import telegram from "../assets/telegram.webp"
 
 export default function Footer() {
 	return (
@@ -33,6 +33,12 @@ export default function Footer() {
 							<a href = "https://github.com/">
 								<img src={github} alt="github" className="footer-github" />
 								<span style = {{fontSize:"25px", color:"white", marginLeft:"10px",}}>Github</span>
+							</a>
+						</div>
+						<div className = "inline">
+							<a href = "https://telegram.com/">
+								<img src={telegram} alt="telegram" className="footer-telegram" />
+								<span style = {{fontSize:"25px", color:"white", marginLeft:"10px",}}>Telegram</span>
 							</a>
 						</div>
 				</Grid>
