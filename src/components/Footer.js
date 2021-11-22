@@ -11,12 +11,12 @@ export default function Footer() {
 	return (
 		<div className = "footer">
 			<Grid container>
-				<Grid item xs = {2} sm = {2} md = {2} lg = {2}>
+				<Grid item xs = {1} sm = {1} md = {2} lg = {2}>
 					<img src={logo} alt="ENS Logo" className="footer-logo" />
 				</Grid>
 				<Grid item xs = {1} sm = {1} md = {1} lg = {1}>
 				</Grid>
-				<Grid item xs = {6} sm = {6} md = {6} lg = {6}>
+				<Grid item xs = {10} sm = {10} md = {6} lg = {6}>
 						<div className = "inline border-right">
 							<a href = "https://twitter.com/" target = "_blank">
 								<img src={twitter} alt="twitter" className="footer-twitter" />
@@ -42,9 +42,9 @@ export default function Footer() {
 							</a>
 						</div>
 				</Grid>
-				<Grid item xs = {1} sm = {1} md = {1} lg = {1}>
+				<Grid item xs = {0} sm = {0} md = {1} lg = {1}>
 				</Grid>
-				<Grid item xs = {2} sm = {2} md = {2} lg = {2}>
+				<Grid item xs = {12} sm = {12} md = {2} lg = {2}>
 					<div>
 						<a>press@ens.domains</a><br />
 						<a>Bug Bounty</a>
