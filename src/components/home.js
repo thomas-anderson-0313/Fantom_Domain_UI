@@ -18,7 +18,7 @@ export default function Home() {
                 <span><img src={warning} alt="warningIcon" className="warningIcon"/></span>
                  We will be COMING SOON
             </div>
-            <div className = "" style = {{marginTop:"30px"}}>
+            <div className = "search-section">
                 <input 
                     type = "text"
                     placeholder = "Search Names or Addresses..."

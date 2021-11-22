@@ -5,7 +5,7 @@ import twitter from "../assets/twitter.svg"
 import github from "../assets/github.svg"
 import medium from "../assets/medium.svg"
 import logo from "../assets/ensLogo.svg"
-import telegram from "../assets/telegram.webp"
+import telegram from "../assets/telegram.svg"
 
 export default function Footer() {
 	return (
@@ -14,22 +14,22 @@ export default function Footer() {
 				<Grid item xs = {2} sm = {2} md = {2} lg = {2}>
 					<img src={logo} alt="ENS Logo" className="footer-logo" />
 				</Grid>
-				<Grid item xs = {1} sm = {2} md = {2} lg = {2}>
+				<Grid item xs = {1} sm = {1} md = {1} lg = {1}>
 				</Grid>
-				<Grid item xs = {6} sm = {4} md = {4} lg = {4}>
-						<div className = "inline">
+				<Grid item xs = {6} sm = {6} md = {6} lg = {6}>
+						<div className = "inline border-right">
 							<a href = "https://twitter.com/">
 								<img src={twitter} alt="twitter" className="footer-twitter" />
 								<span style = {{fontSize:"25px", color:"white", marginLeft:"10px",}}>Twitter</span>
 							</a>
 						</div>
-						<div className = "inline">
+						<div className = "inline border-right">
 							<a href = "https://medium.com/">
 								<img src={medium} alt="medium" className="footer-medium" />
 								<span style = {{fontSize:"25px", color:"white", marginLeft:"10px",}}>Medium</span>
 							</a>
 						</div>
-						<div className = "inline">
+						<div className = "inline border-right">
 							<a href = "https://github.com/">
 								<img src={github} alt="github" className="footer-github" />
 								<span style = {{fontSize:"25px", color:"white", marginLeft:"10px",}}>Github</span>
@@ -42,7 +42,7 @@ export default function Footer() {
 							</a>
 						</div>
 				</Grid>
-				<Grid item xs = {1} sm = {2} md = {2} lg = {2}>
+				<Grid item xs = {1} sm = {1} md = {1} lg = {1}>
 				</Grid>
 				<Grid item xs = {2} sm = {2} md = {2} lg = {2}>
 					<div>
